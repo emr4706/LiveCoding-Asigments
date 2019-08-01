@@ -1,0 +1,175 @@
+/* img {
+    height: 35%;
+    width: 20%;
+    position: relative;
+    
+
+}
+
+ul {
+    border: solid #D3F6F3;
+    background-color: #f9fce1;
+
+}
+
+li {
+    font-family: 'Cinzel', serif;
+    color:#DAA592;
+    list-style: none;
+    position: relative;
+    left: 350px;
+    top: 300px;
+    width: 30%;
+
+}
+h1 {
+    font-family:'Jacques Francois Shadow', cursive; 
+    color:#DAA592;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #D3F6F3;
+    margin-bottom: 1%; 
+}
+h2{
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: #59D4E8;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+button {
+    background-color:#D3F6F3;
+    color:#DAA592 ;
+    width: 150px;
+    height: 30px;
+    margin: 3%;
+    font-size: 55%;
+    position: relative;
+    bottom: 16px;
+    left: 80px;
+    
+}
+
+a {
+    color:#DAA592;
+    font-family:'Cinzel', serif;  
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-s-3"] {
+      width: 100%;
+      margin-bottom: 2%;
+    }
+  } */
+  @import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Merriweather|Roboto+Mono&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace, Merriweather, serif;
+    background: url('./images/backCover.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  h2{
+    font-family: 'monospace', cursive;
+  }
+  
+  header {
+    position: fixed;
+    left: 0;
+    top: 10%;
+    box-shadow: 3px 4px 10px 10px;
+    color: bisque;
+    width: 20%;
+    height: 70%;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  
+  footer{
+    width: 100%;
+    height: 18vh;
+    background: url('./images/myFirstSvgLogo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 33%;
+    box-shadow: 0 0 20px 12px rgba(211, 214, 216, .6)
+  
+  }
+  
+  #bookList {
+    margin: 3% 0 10% 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  ul {
+    width: 25%;
+    height: 70%;
+    padding: 3%;
+    background-color: rgba(236, 211, 178, .6);
+    border-radius: 10%;
+    text-align: center;
+  }
+  
+  li{
+    text-align: left;
+    font-size: 1.3em;
+    margin-left: 2%;
+    font-family: 'Roboto Mono', monospace,
+  }
+  
+  h2{
+    height: 16vh;
+    margin-bottom: 3%;
+    font-size: 2.3em;
+  }
+  
+  img{
+    width: 60%;
+    height: 250px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+  }
+  
+  
+  /* tablet settings */
+  @media only screen and (min-width: 480px) and (max-width: 1024px){
+  
+    header{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 15%;
+    }
+  
+    footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 17%;
+      background-size: 60%;
+    }
+  
+  }
+  /* button {
+    background-color:#D3F6F3;
+    color:#DAA592 ;
+    width: 150px;
+    height: 30px;
+    margin: 3%;
+    font-size: 55%;
+    bottom: 16px;
+    left: 80px;
+    
+}
+h1 {
+    font-family:'Jacques Francois Shadow', cursive; 
+    color:#DAA592;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #D3F6F3;
+    margin-bottom: 1%; 
+}  */
+  /* phone settings */

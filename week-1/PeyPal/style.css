@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-size: 14px;
+
+}
+a {
+  color: #064acb;
+
+}
+
+.header-container {
+  width: 100%;
+  height: 50px;
+  border-bottom: 20px solid #1b7fbd;
+}
+
+.logo-peypal {
+  width: 100px;
+  height: 30px;
+  margin-left: 500px;
+  margin-top: 10px;
+  position: fixed;
+}
+.menu {
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 780px;
+  position: fixed;
+}
+.left-container {
+  width: 130px;
+  height: 550px;
+  background-color: none;
+  float: left;
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+.left-top {
+  width: 130px;
+  height: 150px;
+  background-color: #eeeeee;
+  margin-left: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+.left-top ul {
+list-style: none;
+padding: 0;
+
+}
+.lft-midle {
+  width: 130px;
+  height: 220px;
+  background-color: #eeeeee;
+  margin-left: 0;
+  margin-top: 10px;
+}
+.left-down {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  margin-left: 0;
+  margin-top: 0;
+}
+.right-container {
+  width: 390px;
+  height: 550px;
+  margin-left: 650px;
+  float: right;
+  margin-top: 10px;
+  position: fixed;
+}
+.right-top {
+  width: 390px;
+  height: 150px;
+}
+.right-midle {
+  width: 390px;
+  height: 300px;
+  margin-left: 0;
+  margin-top: 70px;

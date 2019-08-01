@@ -1,0 +1,47 @@
+1:
+
+Emrullah-Kilic:~ user$ cd Desktop
+Emrullah-Kilic:Desktop user$ cd emrullah (ISTEDIGIMIZ DOSYAYA GITMEK ICIN)
+Emrullah-Kilic:emrullah user$ ls
+Emrullah-Kilic:emrullah user$ touch pets.txt (YENI FILE YAPMAK ICIN)
+Emrullah-Kilic:emrullah user$ ls
+pets.txt
+Emrullah-Kilic:emrullah user$ echo "cat"> pets.txt (DOSYANIN ICINE BIRSEYLER YAZMAK ICIN)
+Emrullah-Kilic:emrullah user$ echo dog >> pets.txt
+Emrullah-Kilic:emrullah user$ echo hamster >> pets.txt
+Emrullah-Kilic:emrullah user
+
+2:
+
+Emrullah-Kilic:emrullah user$ touch commands.txt
+Emrullah-Kilic:emrullah user$ echo "cat"> commands.txt
+Emrullah-Kilic:emrullah user$ echo "ls">> commands.txt
+Emrullah-Kilic:emrullah user$ echo "pwd">> commands.txt
+
+3:
+
+I couldn't it.
+
+4:
+
+Emrullah-Kilic:emrullah user$ cd ..
+Emrullah-Kilic:Desktop user$ mkdir emrullah.1 (YENI FOLDER YAPMAK ICIN)
+Emrullah-Kilic:Desktop user$ cd emrullah.1
+Emrullah-Kilic:emrullah.1 user$ touch greeting.txt (YENI FILE YAPMAK ICIN)
+
+5:
+
+Emrullah-Kilic:emrullah.1 user$ for i in {1..5}; do echo "Hello" >> greeting.txt; done (DOYANIN ICINE ALTALTA 5 KERE HELLO YAZMAK ICIN)
+
+6:
+
+Emrullah-Kilic:emrullah.1 user$ for i in {1..5}; do touch $i.txt; done (5 TANE SIRALI FILE ACMAK ICIN)
+
+Emrullah-Kilic:emrullah.1 user$ for i in {1..5}; do cp greeting.txt  $i.txt; done (BIR FILE NIN ICINDEKILERI BASKA BIR FILE NIN ICINE COPYALAMAK ICIN)
+greeting.txt -> 1.txt
+greeting.txt -> 2.txt
+greeting.txt -> 3.txt
+greeting.txt -> 4.txt
+greeting.txt -> 5.txt
+
+

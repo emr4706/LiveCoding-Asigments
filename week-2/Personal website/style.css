@@ -1,0 +1,38 @@
+/* navigation */
+#navigation{
+    background-color: #28c3d4;
+}
+
+
+
+/* header*/
+#header { background-color: #aee7e8;
+    height: 450px;;
+
+}
+
+/* page-content */
+#page-content {
+    padding: 5%;
+}
+
+/* footer */
+footer {
+    background-color: #28c3d4;
+    
+}
+h1 {
+  font-family: 'Jacques Francois Shadow', cursive;
+  color: #1b7fbd;  
+
+}
+h2 {
+    color: #1b7fbd;
+
+}
+h5 {
+    color: #1b7fbd;
+}
+p {
+    color: gray;
+}

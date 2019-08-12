@@ -8,6 +8,27 @@ function secConventer (seconds) {
     return Math.floor(seconds/60) + " minutes and " + seconds%60 + " seconds.";
 }
 console.log(secConventer(94));
+// function secondtominute(second) {
+
+//     var minute = Math.floor(second / 60);
+//     var sec = second % 60;
+
+//     if (minute < 1 && sec>0) {
+//         return console.log(sec + ' seconds')
+//     }
+//     else {
+//         if (minute > 1 && sec>0 ) {
+//             return console.log(minute + ' minutes ' + sec + ' seconds')
+//         } 
+
+//         if (sec==0){
+//             return console.log(minute+' minutes');
+//         }
+//     }
+
+// };
+
+// console.log(secondtominute(1801));
 
 // 2. Print the written number with prefix
 // Create a function that accepts one argument (number) and returns it as a string with 
@@ -21,17 +42,22 @@ function numberCode(number) {
 }
 numberCode(22);
 
+// function numberCode(value) {
+//     console.log("Number is: " +value);
+// }
+// numberCode(22);
+
 // 3. Remove the 2nd string from the 1th string
 // Create a function that accepts two arguments(firstString, secondString) and removes the second string from the first string.
 
 // Example input: ('I am a happy person.', 'person')
 // Example output: "I am a happy ."
 
-function stingRemoves(firstString, secondString) {
-    var str = '"' + firstString.replace(secondString, " ") + '"';
-    return str;
+function stringRemoves(firstString, secondString) {
+   return  firstString.replace(secondString, " "); 
+    // repalce icin ilk stringin icinden secondstringi cikar yerine bos birak.
 }
-console.log(stingRemoves('I am a happy person.', 'person'));
+console.log(stringRemoves('I am a happy person.', 'person'));
 
 // 4. Replace the 2nd string with the 3rd string
 // Create a function that accepts two arguments(firstString, secondString, thirdString) and replaces the 2nd string with the 3rd one in the 1th string.
@@ -40,8 +66,9 @@ console.log(stingRemoves('I am a happy person.', 'person'));
 // Example output: "I am a good person."
 
 function stringRepalece(first, second, third) {
-    var str = first.replace(second, third);
-    return str;
+   return first.replace(second, third);
+    // burada firsten second u cikar yerine third yaz.   
+    
 }
 console.log(stringRepalece('I am a bad person.', 'bad', 'good'));
 
@@ -115,7 +142,7 @@ calculator(8, 9, '-');
 
 function truncateString (text, num) {
     return '"' + text.substring(0, num) + "..." + '"';
-   
+    //  text ilk harfi 0 pozisyon olsun ve num da bitsin.  
 }
 console.log(truncateString("Peter Piper picked a peck of pickled peppers", 11));
 
@@ -137,18 +164,28 @@ console.log(truncateString("Peter Piper picked a peck of pickled peppers", 11));
 // confirmEnding("Abstraction", "action") should return true.
 
 function confirmEnding(string, target) {
-    var mainstring = string.lenght;
-    var targetstring = target.lenght;
+    var mainstring = string.length;
+    var targetstring = target.length;
     var check = string.substring((mainstring - targetstring), mainstring);
     if (target == check) {
        return true; 
     } else  {
         return false;
-    }
-    
+    } 
 }
 console.log(confirmEnding("Congratulation", "on"));
-
+// function endWords(text, word) {
+//   var a = text.length;
+//   var b = word.length;
+//   var res = text.slice(a - b, a);
+//   if (res == word) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// var result = endWords("Congratulation", "on");
+// console.log(result);
 
 
 
